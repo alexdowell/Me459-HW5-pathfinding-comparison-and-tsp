@@ -1,7 +1,7 @@
-# ME459 HW5: Pathfinding and Traveling Salesman Problem  
+# ME459 HW5: Pathfinding Comparison  
 
 ## Description  
-This repository contains implementations of pathfinding algorithms and the Traveling Salesman Problem (TSP) for **ME459 Robotics and Unmanned Systems**. The focus is on solving trajectory planning and navigation problems using **Dijkstra's algorithm, A* search, Rapidly-exploring Random Tree (RRT), and brute-force TSP**. The repository includes Python scripts for implementing these algorithms and analyzing their performance in different environments.  
+This repository contains implementations of pathfinding algorithms and the Traveling Salesman Problem (TSP) for **ME459 Robotics and Unmanned Systems**. The focus is on solving trajectory planning and navigation problems using **Dijkstra's algorithm, A* search, and Rapidly-exploring Random Tree (RRT)**. The repository includes Python scripts for implementing these algorithms and analyzing their performance in different environments.  
 
 ## Files Included  
 
@@ -21,14 +21,6 @@ This repository contains implementations of pathfinding algorithms and the Trave
   - Implementation of movement constraints  
   - TurtleBot simulation integration  
 
-### **Traveling Salesman Problem (TSP) Implementation**  
-- **File:** ME 459 Final TSP.py  
-- **Topics Covered:**  
-  - Brute-force TSP solver  
-  - Computation of optimal travel order  
-  - Distance-based cost analysis  
-  - Path visualization  
-
 ### **Additional Pathfinding Implementation**  
 - **File:** ME 459 HW 5_4.py  
 - **Topics Covered:**  
@@ -39,7 +31,7 @@ This repository contains implementations of pathfinding algorithms and the Trave
 ### **Homework Problems and Documentation**  
 - **File:** ME 459 HW 5.pdf  
   - Description of path planning problems and requirements  
-  - Problem statements for Dijkstra's, A*, RRT, and TSP implementations  
+  - Problem statements for Dijkstra's, A*, and RRT 
   - Expected output and analysis  
 
 ## Installation  
@@ -60,8 +52,7 @@ To install the necessary packages, run:
 2. Run the desired path planning script using:  
 
 ```python ME_459_Dijkstra.py```  
-```python ME_459_AStar.py```  
-```python ME 459 Final TSP.py```  
+```python ME_459_AStar.py```    
 ```python ME 459 HW 5_4.py```  
 
 3. View generated path plots and analyze results.  
@@ -75,11 +66,6 @@ To install the necessary packages, run:
 ### **A* Algorithm**  
 - Implements heuristic cost evaluation  
 - Compares search efficiency against Dijkstra  
-
-### **Traveling Salesman Problem (TSP)**  
-- Determines optimal visit order for multiple waypoints  
-- Computes total travel cost  
-- Plots the optimal route  
 
 ## Contributions  
 This repository is designed for educational purposes. Feel free to modify and expand upon the existing implementations.  
